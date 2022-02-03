@@ -12,6 +12,10 @@ header{
     line-height: 80px;
 }
 
+main{
+    padding-top: 80px;
+}
+
 /* Utilities */
 .clearfix::after {
     content: "";
@@ -69,5 +73,9 @@ li > a{
     margin-left: 50px;
     vertical-align: middle;
 }
+
+/* lavoro sulla sezione */
+
+
 
 
