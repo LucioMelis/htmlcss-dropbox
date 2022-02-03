@@ -10,3 +10,64 @@
     clear: both;
     display: table;
 }
+
+.debug{
+    border: 2px dashed black;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+li > a{
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    color: white;
+    background-color: #0061ff;
+    padding: 3px 15px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+
+
+/* lavoro sulle classi header-nav */
+.nav-header-left ul li,
+.nav-header-right ul li{
+    display: inline-block;
+}    
+
+.nav-header-left ul li{
+    margin-right: 50px;
+}
+
+.nav-header-right ul li{
+    margin-left: 50px;
+}
+
+.nav-header-left{
+    margin-left: 50px;
+}
+
+.nav-header-right {
+    margin-right: 50px;
+}
+
+/* lavoro sull'immagine */
+.logo-header{
+    margin-left: 50px;
+    vertical-align: middle;
+}
+
+
