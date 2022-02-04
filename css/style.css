@@ -22,6 +22,24 @@ ul li{
     list-style-type: none;
 }
 
+.font-h1{
+    font-size: 70px;
+}
+
+.font-h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+.font-h3{
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.font-h4{
+    font-weight: 900;
+    font-size: 18px;
+}
+
 /* Utilities */
 .clearfix::after {
     content: "";
@@ -110,7 +128,6 @@ ul li{
 .title-h1{
     padding-top: 50px;
     padding-bottom: 50px;
-    font-size: 70px;
 }
 
 .container-text{
@@ -148,8 +165,6 @@ ul li{
 .title-h2{
     padding-top: 100px;
     padding-bottom: 40px;
-    font-size: 40px;
-    font-weight: 900;
 }
 
 #radio-btn1, #radio-btn2{
@@ -187,13 +202,11 @@ label{
 }
 
 
-.container-w80  h3{
-    font-weight: 900;
+.container-w80  .title-h3{
     margin-top: 20px;
-    font-size: 25px;
 }
 
-h3 + .euro{
+.title-h3 + .euro{
     font-weight: 900;
     font-size: 18px;
 }
@@ -215,14 +228,11 @@ h3 + .euro{
 .container-w80 .btn-margin{
     margin-top: 50px;
     margin-bottom: 25px;
-    text-align: center;
 }
 
-.container-w80 h4{
+.container-w80 .title-h4{
     margin-top: 70px;
     margin-bottom: 30px;
-    font-weight: 900;
-    font-size: 18px;
 }
 
 .float-margin{
