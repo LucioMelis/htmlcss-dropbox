@@ -11,10 +11,15 @@ header{
     height: 80px;
     line-height: 80px;
     background-color: white;
+    z-index: 10;
 }
 
 main{
     padding-top: 80px;
+}
+
+ul li{
+    list-style-type: none;
 }
 
 /* Utilities */
@@ -50,7 +55,7 @@ main{
 .button{
     color: white;
     background-color: #0061ff;
-    padding: 3px 15px;
+    padding: 5px 15px;
     text-decoration: none;
 }
 
@@ -105,7 +110,7 @@ main{
 .title-h1{
     padding-top: 50px;
     padding-bottom: 50px;
-    font-size: 75px;
+    font-size: 70px;
 }
 
 .container-text{
@@ -143,6 +148,8 @@ main{
 .title-h2{
     padding-top: 100px;
     padding-bottom: 40px;
+    font-size: 40px;
+    font-weight: 900;
 }
 
 #radio-btn1, #radio-btn2{
@@ -152,6 +159,78 @@ main{
 label{
     padding-right: 15px;
 }
+
+/* Lavoro float  */
+
+.float-general{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.float-card{
+    width: 32%;
+    border: 1px solid grey;
+    height: 1000px;
+}
+
+.icon{
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container-w80 p,
+.container-w80 ul li{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.container-w80  h3{
+    font-weight: 900;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+h3 + .euro{
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.container-w80 .p-grey{
+    color: grey;
+    margin-bottom: 40px;
+}
+
+.border-span{
+    border-bottom:1px solid grey;
+    padding-bottom: 20px;
+}
+
+.container-w80 *{
+    margin: 10px 0;
+}
+
+.container-w80 .btn-margin{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.container-w80 h4{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.float-margin{
+    margin:0 2%;
+}
+
+
+
 
 
 
