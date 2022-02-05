@@ -315,7 +315,7 @@ label{
     margin-top: 50px;
 }
 
-/* Lavoro sulla Section Third */
+/* Lavoro sulla Section Fourth */
 
 .container-img img{
     width: 100%;
@@ -325,12 +325,23 @@ label{
     margin-top: 100px;
 }
 
-.container-w70 .font-h2{
+#section-fourth .container-w70 .font-h2{
     margin-bottom: 50px;
 }
 
 .container-w70 .float-w32 > *{
     margin-bottom: 20px;
+}
+
+/* Lavoro sulla Section Fifth  */
+
+#section-fifth{
+    margin-top: 150px;
+}
+
+#section-fifth .container-w70 .font-h2{
+    max-width: 60%;
+    margin-bottom: 30px;
 }
 
 
