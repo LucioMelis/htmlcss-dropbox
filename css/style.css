@@ -73,8 +73,14 @@ ul li{
 .button{
     color: white;
     background-color: #0061ff;
-    padding: 5px 15px;
+    padding: 10px 20px;
     text-decoration: none;
+}
+
+.button-white{
+    padding: 5px 15px;
+    background-color: white;
+    border: 2px solid black;
 }
 
 /* larghezze */
@@ -88,6 +94,28 @@ ul li{
     width: 70%;
     margin: auto;
 }
+
+.container-w50{
+    width: 50%;
+}
+
+.container-w90{
+    width: 90%;
+    margin:auto;
+}
+
+.container-w60{
+    width: 60%;
+}
+
+.container-w40{
+    width: 40%;
+}
+
+.container-w30{
+    width: 30%;
+}
+
 
 
 
@@ -242,6 +270,50 @@ label{
 .container-w80 .fa-check{
     color: blue;
 }
+
+.margin{
+    margin-top: 50px;
+}
+
+.border{
+    border: 1px solid grey;
+}
+
+.container-w90 *{
+    margin: 15px 0;
+}
+
+.btn-margin{
+    margin-top: 35px;
+    text-align: right;
+}
+
+/* Lavoro sulla Section Third */
+
+#section-third{
+    margin-top: 150px;
+}
+
+.container-w60 img{
+    width: 100%;
+}
+
+#section-third .container-w30{
+    margin-right: 5%;
+}
+
+#section-third .container-w30 *{
+    margin-bottom: 20px;
+}
+
+#section-third .font-h3{
+    margin-top: 40px;
+}
+
+#section-third .container-w30 p:nth-child(3){
+    margin-top: 50px;
+}
+
 
 
 
