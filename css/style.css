@@ -116,6 +116,14 @@ ul li{
     width: 30%;
 }
 
+.float-w32{
+    width: 32%;
+}
+
+.float-margin-center{
+    margin: 0 2%;
+}
+
 
 
 
@@ -263,10 +271,6 @@ label{
     margin-bottom: 30px;
 }
 
-.float-margin{
-    margin:0 2%;
-}
-
 .container-w80 .fa-check{
     color: blue;
 }
@@ -313,6 +317,10 @@ label{
 #section-third .container-w30 p:nth-child(3){
     margin-top: 50px;
 }
+
+/* Lavoro sulla Section Third */
+
+
 
 
 
