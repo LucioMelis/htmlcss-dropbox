@@ -121,7 +121,8 @@ ul li{
 }
 
 .float-margin-center{
-    margin: 0 2%;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 
@@ -170,11 +171,7 @@ ul li{
     width: 40%;
 }
 
-.container-img{
-    width: 60%;
-}
-
-.container-img img{
+.container-w60 img{
     width: 100%;
 }
 
@@ -320,8 +317,21 @@ label{
 
 /* Lavoro sulla Section Third */
 
+.container-img img{
+    width: 100%;
+}
 
+#section-fourth{
+    margin-top: 100px;
+}
 
+.container-w70 .font-h2{
+    margin-bottom: 50px;
+}
+
+.container-w70 .float-w32 > *{
+    margin-bottom: 20px;
+}
 
 
 
