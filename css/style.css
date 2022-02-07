@@ -224,8 +224,8 @@ label{
     padding-bottom: 10px;
 }
 
-.container-w80 p,
-.container-w80 ul li{
+.float general .container-w80 p,
+.float general .container-w80 ul li{
     font-size: 15px;
     font-weight: 500;
 }
@@ -250,7 +250,7 @@ label{
     padding-bottom: 20px;
 }
 
-.container-w80 *{
+.float-card .container-w80 *{
     margin: 10px 0;
 }
 
@@ -490,6 +490,51 @@ label{
     border-bottom: 1px solid grey;
     margin-bottom: 100px;
 }
+
+/* inzio Footer  */
+
+#footer-space{
+    background-color: #000000;
+    color: white;
+}
+
+.calc{
+    margin-right: 20px;
+    width: calc(100% / 5 - 20px);
+    padding-bottom: 80px;
+}
+
+#footer-space div{
+    margin-top: 70px;
+}
+
+#footer-space h4{
+    margin-bottom: 20px;
+}
+
+.p-footer{
+    color: grey;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#footer-space .calc ul li {
+    padding-bottom: 10px;
+}
+
+#footer-space .calc ul li:hover{
+    text-decoration: underline;
+}
+
+.container-w80 .calc:first-child{
+    border-bottom: 1px solid grey;
+}
+
+
+
+
+
+
 
 
 
