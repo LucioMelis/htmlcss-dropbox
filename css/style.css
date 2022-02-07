@@ -454,6 +454,32 @@ label{
     max-width: 70%;
 }
 
+/* Inizio Section Seventh */
+
+#section-seventh .container-w70 .font-h3{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.p-none{
+    padding-top: 20px;
+    display: none;
+}
+
+.text-inline{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid grey;
+    position: relative;
+}
+
+.text-inline i{
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+
 
 
 
