@@ -462,8 +462,9 @@ label{
 }
 
 .p-none{
-    padding-top: 20px;
     display: none;
+    padding-top: 30px;
+    max-width: 70%;
 }
 
 .text-inline{
@@ -471,14 +472,24 @@ label{
     padding-bottom: 40px;
     border-top: 1px solid grey;
     position: relative;
+    font-weight: bold;
 }
 
 .text-inline i{
     position: absolute;
     top: 40px;
-    right: 0;
+    right: 40px;
 }
 
+.text-inline:hover .p-none{
+    display: block;
+    font-weight: lighter;
+}
+
+#section-seventh .container-w70 div:nth-child(5){
+    border-bottom: 1px solid grey;
+    margin-bottom: 100px;
+}
 
 
 
