@@ -22,6 +22,8 @@ ul li{
     list-style-type: none;
 }
 
+/* font  */
+
 .font-h1{
     font-size: 70px;
 }
@@ -45,10 +47,6 @@ ul li{
     content: "";
     clear: both;
     display: table;
-}
-
-.debug{
-    border: 2px dashed black;
 }
 
 .float-left{
@@ -124,8 +122,6 @@ ul li{
     margin-right: 2%;
     margin-left: 2%;
 }
-
-
 
 
 /* lavoro sulle classi header-nav */
@@ -258,14 +254,26 @@ label{
     margin: 10px 0;
 }
 
-.container-w80 .btn-margin{
+.float-general .container-w80 .try-now{
     margin-top: 50px;
     margin-bottom: 25px;
+    width: 100%;
+    color: white;
+    background-color: #0061ff;
+    padding: 5px 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
 }
 
 .container-w80 .title-h4{
     margin-top: 70px;
     margin-bottom: 30px;
+}
+
+.container-w80 p  a{
+    display: inline;
+    color:#0061ff;
 }
 
 .container-w80 .fa-check{
@@ -284,7 +292,7 @@ label{
     margin: 15px 0;
 }
 
-.btn-margin{
+.container-w90 .btn-margin{
     margin-top: 35px;
     text-align: right;
 }
@@ -343,6 +351,102 @@ label{
     max-width: 60%;
     margin-bottom: 30px;
 }
+
+#section-fifth p{
+    margin-bottom: 40px;
+}
+
+#section-fifth a{
+    color:blue;
+}
+
+.principal{
+    height: 50vh;
+}
+
+.container-h50{
+    height: 50%;
+    position: relative;
+}
+
+.img-trasform{
+    width: 50%;
+    filter: invert(100%);
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50% , -50%);
+
+}
+
+.principal .container-w30,
+.principal .container-w40{
+    height: 100%;
+}
+
+.bg-color1{
+    background-color: #a2d39b;
+}
+.bg-color2{
+    background-color: #61082b;
+}
+.bg-color3{
+    background-color: #0093ce;
+}
+.bg-color4{
+    background-color: #ff1c1c;
+}
+
+.principal .container-w90 > img{
+    width: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container-w50 .container-w90 p:nth-child(2){
+    margin-bottom: 50px;
+}
+
+.principal .container-w40{
+    background-color: #f5f5f5;
+}
+
+.bg-color5{
+    background-color: #d5001f;
+}
+.bg-color6{
+    background-color: #b4d0e7;
+}
+.bg-color7{
+    background-color: #0d2481;
+}
+.bg-color8{
+    background-color: #ffd830;
+}
+
+/* Inizio Section Sixth */
+
+#section-sixth{
+    background-color: #b4d0e7;
+}
+
+#section-sixth .container-w40{
+    text-align: right;
+    margin-top: 115px;
+}
+
+#section-sixth .container-w60{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #61082b;
+}
+
+
+   
+
+
+
+
 
 
 
