@@ -430,16 +430,31 @@ label{
     background-color: #b4d0e7;
 }
 
-#section-sixth .container-w40{
+#section-sixth .float-right{
     text-align: right;
-    margin-top: 115px;
+    margin-top: 110px;
 }
 
-#section-sixth .container-w60{
+#section-sixth .float-left{
     margin-top: 100px;
     margin-bottom: 100px;
     color: #61082b;
 }
+
+.a-button-white{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    display: block;
+    padding: 8px 0;
+    font-weight: bold;
+}
+
+#section-sixth .font-h2{
+    max-width: 70%;
+}
+
+
 
 
    
