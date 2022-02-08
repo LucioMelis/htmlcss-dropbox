@@ -146,11 +146,21 @@ ul li{
     margin-right: 50px;
 }
 
+.nav-header-left ul li:hover,
+.nav-header-right ul li:hover{
+    border-bottom: 2px solid black;
+}
+
 /* lavoro sull'immagine-header*/
 .logo-header{
     margin-left: 50px;
     vertical-align: middle;
 }
+
+.button:hover{
+    opacity: 0.6;
+}
+
 
 /* lavoro sulla Section First */
 
@@ -181,7 +191,7 @@ ul li{
 }
 
 .container-text p{
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 30px;
 }
 
@@ -297,6 +307,10 @@ label{
     text-align: right;
 }
 
+.try-now:hover{
+    opacity: 0.6;
+}
+
 /* Lavoro sulla Section Third */
 
 #section-third{
@@ -321,6 +335,11 @@ label{
 
 #section-third .container-w30 p:nth-child(3){
     margin-top: 50px;
+}
+
+#section-third .container-w30 p a:hover{
+    background-color: black;
+    color: white;
 }
 
 /* Lavoro sulla Section Fourth */
@@ -453,6 +472,12 @@ label{
 #section-sixth .font-h2{
     max-width: 70%;
 }
+
+#section-sixth .container-w30 a:hover{
+    background-color: black;
+    color: white;
+}
+
 
 /* Inizio Section Seventh */
 
